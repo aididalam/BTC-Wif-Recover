@@ -1,4 +1,4 @@
-# recoverwif
+# BTC Wif Recover
 
 `recoverwif` is a multithreaded brute‑force tool to recover a Bitcoin WIF (Wallet Import Format) private key by filling in missing characters (underscores `_`) and comparing the derived address.
 
