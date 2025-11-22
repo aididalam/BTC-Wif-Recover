@@ -1,0 +1,28 @@
+# Compiled binary
+recoverwif
+recoverwif.exe
+
+# Progress and result files
+KEYFOUND.txt
+progress.txt
+
+# Build files
+*.o
+*.obj
+*.dll
+*.so
+*.a
+*.log
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# screen session sockets
+/run/screen/S-*
+
+# VSCode settings (optional)
+.vscode/
