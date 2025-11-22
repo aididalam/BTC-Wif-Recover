@@ -62,25 +62,25 @@ Options:
 ---
 
 ## Example
-
-./recoverwif \
-  -a 1PWo3JeB9jrGwfHDNpdGK54CRas7fsVzXU \
-  -k 5HpHagT65TZzG1PH3CSu63k8DbpvD8s5i__________________ \
-  -t 4 \
-  -p 1 \
-  -r progress.txt
+```
+./recoverwif -a 13YdfiT6u1zNwZhzZCieKr7hBcZSiA6vqQ -k 5HpHagT65TZzG1PH3CSu63k8DbpvD8s5iujXoV3MpXFEEX_ro__ -t 8 -p 1 -r progress.txt
+```
 
 ---
 
 ## Output
 
-If a matching WIF is found:
+```
+🔍 Total combinations: 195112
+🧵 Using threads: 8
 
-- It prints: "FOUND WIF: <key>"
-- It appends the key to KEYFOUND.txt
-- If resume was enabled, resume file is removed
 
-If no match is found, it prints "No matching WIF found."
+🔥 FOUND WIF: 5HpHagT65TZzG1PH3CSu63k8DbpvD8s5iujXoV3MpXFEEX9roUW
+
+
+⏱️  Time: 1.00558 sec
+⚡ Speed: 103370 keys/sec
+```
 
 ---
 
