@@ -12,7 +12,6 @@
 - Works on Linux, macOS, and Windows  
 - Shows live speed, ETA, and progress bar  
 - Uses OpenSSL + libsecp256k1 for crypto  
-- Very fast and optimized inner loop  
 
 ---
 
@@ -142,9 +141,9 @@ Options:
 ## Notes
 
 - Brute forcing WIF keys is computationally expensive.  
-- Unknown characters grow search space exponentially.  
 - Use ONLY for recovering your own keys.  
 - Do not use this tool for anything illegal.  
+- You are solely responsible for how you use this software. The authors and contributors take no liability for misuse.
 
 ---
 
