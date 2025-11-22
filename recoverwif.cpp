@@ -314,7 +314,7 @@ int main(int argc, char *argv[])
             bar.resize(50, '.');
 
             std::lock_guard<std::mutex> lock(output_mutex);
-            std::cout << "\r[" << bar << "] "
+            std::cout << "\r\033[K[" << bar << "] "
                       << int(percent) << "%  ("
                       << current << "/" << total_combinations
                       << ")  ETA: " << int(eta) << "s   " << std::flush;
