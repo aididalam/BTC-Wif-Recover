@@ -25,6 +25,53 @@ You must have:
 - g++ with C++17 support
 - Make
 
+```
+git clone https://github.com/yourusername/recoverwif.git
+cd recoverwif
+```
+
+### Macos
+```
+brew install openssl@3
+```
+```
+brew install secp256k1
+```
+```
+make mac
+```
+
+### Linux
+```
+sudo apt update
+```
+
+```
+sudo apt install -y build-essential g++ make \
+libssl-dev libsecp256k1-dev
+```
+
+```
+make linux
+```
+
+
+### Windows
+```
+pacman -Syu
+```
+
+```
+pacman -Su
+```
+
+```
+pacman -S mingw-w64-x86_64-gcc mingw-w64-x86_64-make \
+mingw-w64-x86_64-openssl mingw-w64-x86_64-secp256k1
+```
+```
+make win
+```
 ---
 
 ## Building
